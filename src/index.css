@@ -1,0 +1,73 @@
+body {
+  background-color: #0c0e0f;
+  color: gray;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+header, main, nav, footer {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 10px; */
+}
+
+nav a {  /*links within "nav" container */
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: white;    /*by default, links are blue*/
+  font-family: 'Pacifico', cursive
+}
+
+nav a.current {
+  /* font-size: 30px; */
+  color: purple;
+}
+
+nav a:hover {
+  border-bottom: 2px orange solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+nav a.current:hover {
+  border-bottom: 2px orange solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  color: pink;
+  font-size: 11px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
+/* Project pages*/
+#project {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#class-title {
+  text-align: center;
+}
